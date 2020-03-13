@@ -77,4 +77,7 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+    public void rename(int pos, String cityName){
+        this.cities.get(pos).setCityName(cityName);
+    }
 }
